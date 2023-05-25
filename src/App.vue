@@ -6,23 +6,22 @@
 
     <v-main>
       <v-container>
-        <div class="ma-10 d-flex justify-space-between ma">
-          <div style="width: 100px; height: 100px"
-            class="pa-4 border rounded-lg elevation-2">
-            teste
-          </div>
-          <div
-            style="width: 100px; height: 100px"
-            class="border rounded-lg elevation-2">
-            teste
-          </div>
-          <div
-          style="width: 100px; height: 100px"
-          class="border rounded-lg elevation-2 ">
+        <h1 class="hidden-md-only text-h5 text-lg-h3">Dashboard</h1>
 
+        <div class="d-flex flex-column flex-md-row justify-space-between">
+          <div
+            class="w-100 pa-4 border rounded-lg elevation-2">
+            teste
+          </div>
+          <div
+            class="w-100 pa-4 border rounded-lg elevation-2">
+            teste
+          </div>
+          <div
+          class="w-100 pa-4 border rounded-lg elevation-2 ">
           teste
+          </div>
         </div>
-      </div>
       </v-container>
       <HelloWorld />
     </v-main>
