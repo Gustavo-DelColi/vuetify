@@ -1,5 +1,5 @@
 <template>
-  <v-app>
+  <v-app theme="dark">
     <v-app-bar flat class="border-b">
       <v-app-bar-title>Meu app</v-app-bar-title>
     </v-app-bar>
@@ -17,13 +17,16 @@
               >
                 <v-card-title>Templo Maori</v-card-title>
               </v-img>
+
               <v-card-subtitle class="pt-3">NZ</v-card-subtitle>
               <v-card-text>
                 <div>Rio vermelho</div>
                 <div>Kia ri te</div>
               </v-card-text>
               <v-card-action>
-                <v-btn>Ver mais</v-btn>
+                <v-btn variant="outlined" color="primary">Ver mais</v-btn>
+                <v-btn prepend-icon="mdi-cart" variant="tonal" color="blue">Comprar</v-btn>
+                <v-btn icon="mdi-home" variant="tonal" color="blue"></v-btn>
               </v-card-action>
             </v-card>
           </v-col>
